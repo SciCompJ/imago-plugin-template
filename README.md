@@ -8,7 +8,7 @@ Installation:
 * clone it locally
 
 Configuration:
-* update the `pom.xml` file with information relevant to the plugin to create (in particular artifact name)
+* update the `pom.xml` file with information relevant to the plugin to create (in particular the "artifactId" tag)
 * add necessary dependencies if needed (note: CS4J and Imago are not available as dependencies yet)
 
 Edition:
