@@ -1,17 +1,21 @@
-# plugin-template
+# Plugin Template for Imago
+
 Simple plugin template for the Imago project.
 
-## How to use
+## Installation
 
-Installation:
 * create a new project from this template
 * clone it locally
 
-Configuration:
-* update the `pom.xml` file with information relevant to the plugin to create (in particular the "artifactId" tag)
-* add necessary dependencies if needed (note: CS4J and Imago are not available as dependencies yet)
+## Configuration
 
-Edition:
+* update the `pom.xml` file with information relevant to the plugin to create (in particular the "artifactId" tag)
+* add the necessary dependencies if needed
+
+Note: CS4J and Imago are not available as dependencies yet. Within eclipse, they can be added from the contextual menu "properties > Java Build Path", and selecting the "Libraries" tab.
+
+## Edition
+
 * start from the file `my.plugin.HelloImagoPlugin` to develop own plugin and asociated files
 * update the `plugins.config` configuration file
 
